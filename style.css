@@ -1434,3 +1434,49 @@ background:#005f8d;
 transform:translateY(-2px);
 
 }
+/* ==========================================
+DISCREET VERIFICATION
+========================================== */
+
+.discreet-verification{
+    padding:130px 0;
+    background:#ffffff;
+}
+
+.verification-content{
+    max-width:900px;
+    margin:60px auto 0;
+}
+
+.verification-content p{
+    font-size:18px;
+    line-height:1.9;
+    color:#6b7280;
+    margin-bottom:28px;
+}
+
+.verification-box{
+    background:#f9fafb;
+    border:1px solid #ececec;
+    border-radius:22px;
+    padding:35px;
+    margin-top:30px;
+}
+
+.verification-box h3{
+    font-size:28px;
+    color:#111827;
+    margin-bottom:20px;
+}
+
+.verification-box ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.verification-box li{
+    font-size:17px;
+    line-height:2;
+    color:#6b7280;
+}
