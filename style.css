@@ -1122,6 +1122,9 @@ RESPONSIVE
 ========================================== */
 
 @media (max-width:1100px){
+   .deliverables-grid{
+    grid-template-columns:1fr;
+}
 
 .framework-grid{
 
@@ -1442,6 +1445,21 @@ DISCREET VERIFICATION
     padding:130px 0;
     background:#ffffff;
 }
+.discreet-verification .section-title{
+    text-align: center;
+}
+
+.discreet-verification .section-title span{
+    display: block;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.discreet-verification .section-title h2{
+    text-align: center;
+}
 
 .verification-content{
     max-width:900px;
@@ -1478,5 +1496,50 @@ DISCREET VERIFICATION
 .verification-box li{
     font-size:17px;
     line-height:2;
+    color:#6b7280;
+}
+/* ==========================================
+WHAT YOU RECEIVE
+========================================== */
+
+.deliverables{
+    padding:130px 0;
+    background:#ffffff;
+}
+
+.deliverables-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:28px;
+    margin-top:70px;
+}
+
+.deliverable-card{
+    background:#fff;
+    padding:42px;
+    border-radius:22px;
+    border:1px solid #ececec;
+    transition:.35s;
+}
+
+.deliverable-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 60px rgba(17,24,39,.08);
+}
+
+.deliverable-icon{
+    font-size:34px;
+    margin-bottom:20px;
+}
+
+.deliverable-card h3{
+    font-size:30px;
+    margin-bottom:18px;
+    color:#111827;
+}
+
+.deliverable-card p{
+    font-size:17px;
+    line-height:1.8;
     color:#6b7280;
 }
