@@ -80,13 +80,13 @@ z-index:999;
 }
 
 .nav-container{
-
 display:flex;
-
 justify-content:space-between;
-
 align-items:center;
 
+width:100%;
+max-width:1200px;
+margin:0 auto;
 }
 
 .logo{
@@ -1542,4 +1542,29 @@ WHAT YOU RECEIVE
     font-size:17px;
     line-height:1.8;
     color:#6b7280;
+}
+html,
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.timeline-item {
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    overflow-wrap: break-word;
+}
+
+.hero h1 {
+    word-break: break-word;
 }
