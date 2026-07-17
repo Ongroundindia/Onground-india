@@ -1568,3 +1568,36 @@ img {
 .hero h1 {
     word-break: break-word;
 }
+.pricing-start{
+    font-size:30px;
+    font-weight:700;
+    color:#0B5FFF;
+    margin:20px 0 10px;
+}
+
+.pricing-note{
+    font-size:14px;
+    color:#777;
+    margin-top:20px;
+    line-height:1.6;
+}
+.footer-links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:28px;
+    margin-bottom:20px;
+}
+
+.footer-links a{
+    color:#fff;
+    text-decoration:none;
+    opacity:.8;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    opacity:1;
+    color:#0B5FFF;
+}
