@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ongroundindia.github.io/Onground-india/sitemap.xml
+Sitemap: https://ongroundindia.online/sitemap.xml
