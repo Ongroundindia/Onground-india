@@ -1177,7 +1177,8 @@ font-size:40px;
 .services-grid,
 .who-grid,
 .problem-points,
-.contact-grid{
+.contact-grid,
+.why-grid{
 
 grid-template-columns:1fr;
 
@@ -1600,4 +1601,90 @@ img {
 .footer-links a:hover{
     opacity:1;
     color:#0B5FFF;
+}
+@media (max-width:768px){
+
+.why{
+
+padding:80px 20px;
+
+}
+
+.why-grid{
+
+display:grid;
+
+grid-template-columns:1fr;
+
+gap:20px;
+
+margin-top:40px;
+
+}
+
+.why-card{
+
+width:100%;
+
+max-width:100%;
+
+padding:28px;
+
+box-sizing:border-box;
+
+}
+
+.why-card h3{
+
+font-size:24px;
+
+}
+
+.why-card p{
+
+font-size:16px;
+
+}
+
+}
+.deliverables{
+
+padding:80px 20px;
+
+}
+
+.deliverables-grid{
+
+display:grid;
+
+grid-template-columns:1fr !important;
+
+gap:20px;
+
+margin-top:40px;
+
+}
+
+.deliverable-card{
+
+width:100%;
+
+max-width:100%;
+
+padding:28px;
+
+box-sizing:border-box;
+
+}
+
+.deliverable-card h3{
+
+font-size:24px;
+
+}
+
+.deliverable-card p{
+
+font-size:16px;
+
 }
